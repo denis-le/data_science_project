@@ -20,7 +20,12 @@ The data has over 9000 samples with 6 features:
 
 This dataset can be found online at [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
 
-Data Preview: ![X](graphs/X.png) ![y](graphs/y.png)
+Data Preview: 
+![X](graphs/X.png) 
+
+![y](graphs/y.png)
+
+Note: In order to use the "Extracurricular Activities" column for feature selection, the "Yes" and "No" were changed to 1 and 0, respectively.
 
 ## Methods
 Tools:

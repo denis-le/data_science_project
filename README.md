@@ -20,6 +20,8 @@ The data has over 9000 samples with 6 features:
 
 This dataset can be found online at [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
 
+Data Preview: ![[graphs/X.png]] ![[graphs/y.png]]
+
 ## Methods
 Tools:
 - NumPy, SciPy, Pandas, and Scikit-learn for data analysis and inference

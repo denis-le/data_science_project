@@ -30,13 +30,20 @@ Inference methods used with Scikit:
 - linear regression model
 - feature selection
 
-Linear regression is a simple data analysis technique that predicts a value of unknown given related and known data. It is modeled using a linear equation. Going more in depth, this project uses mutliple regression, which is linear regression, but instead it predicts a value given more than one known value of data. This method of modeling is simple, but at the same time it will be less accurate if the values do not have a linear relationship with each other.
+Linear regression is a simple data analysis technique that predicts a value of unknown given related and known data. It is modeled using a linear equation. Going more in depth, this project uses multiple regression, which is linear regression, but instead it predicts a value given more than one known value of data. This method of modeling is simple, but at the same time it will be less accurate if the values do not have a linear relationship with each other.
 
 To determine the values to compare for the multiple regression model, the top three features are chosen to determine a value for the performance index.
 
 To find the top three values, feature selection is used. SelectKBest was chosen to be used as the feature selection method, and it uses a variety of different statistical tests to rank the top features related to the output variable.
 
 ## Results
+
+The top three features with the highest correlation to a student's performance index ranked by score:
+1. Previous Scores
+2. Hours Studied
+3. Sample Question Papers Practiced
+
+As for the question relating sleep with a student's performance, it had the lowest score out of all of the features. This meant that even if it did have a correlation, the other features would provide a more accurate prediction when creating a model. 
 
 ## Discussion
 

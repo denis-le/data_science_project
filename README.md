@@ -50,3 +50,9 @@ As for the question relating sleep with a student's performance, it had the lowe
 ## Summary
 
 ## References
+
+[1] [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
+
+[2] [Predictive model article](https://365datascience.com/tutorials/python-tutorials/predictive-model-python/)
+
+[3] [Multiple regression article](https://www.w3schools.com/python/python_ml_multiple_regression.asp)

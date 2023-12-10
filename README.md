@@ -5,7 +5,9 @@ The objective of this project is to practice using Python and its libraries in o
 - What are the three top factors in a student's academic performance?
 - How does sleep affect a student's performance?
 
-After answering those, the next step would be to use a regression model to predict a student's performance based on the top factors. To assist me, I referenced [this article](https://365datascience.com/tutorials/python-tutorials/predictive-model-python/) to determine the top factors that affect a student's performance, and a guide on [multiple regression](https://www.w3schools.com/python/python_ml_multiple_regression.asp) for my predictive model.
+After answering those, the next step would be to use a regression model to predict a student's performance based on the top factors. To assist me, I referenced [this article](https://365datascience.com/tutorials/python-tutorials/predictive-model-python/) [2] to determine the top factors that affect a student's performance, and a guide on [multiple regression](https://www.w3schools.com/python/python_ml_multiple_regression.asp) [3] for my predictive model.
+
+The data was split 80/20 for training and testing, and was done with the help of [this article](https://medium.com/machine-learning-with-python/multiple-linear-regression-implementation-in-python-2de9b303fc0c) [4]
 
 ## Selection of Data
 The model was created using Datalore, a python notebook, and the code can be found [here](codes/student_performance.ipynb)
@@ -18,7 +20,7 @@ The data has over 9000 samples with 6 features:
 - How many sample questions were done
 - Performance Index
 
-This dataset can be found online at [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)
+This dataset can be found online at [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression) [1]
 
 Data Preview: 
 ![X](graphs/X.png) 
@@ -52,6 +54,12 @@ The top three features with the highest correlation to a student's performance i
 
 As for the question relating sleep with a student's performance, it had the lowest score out of all of the features. This meant that even if it did have a correlation, the other features would provide a more accurate prediction when creating a model. 
 
+After building the model, it can be used to predict a student's performance based on the those top three factors. An example of predicting using the model can be shown here: ![Prediction](graphs/prediction.png)
+
+To explore the accuracy of these predictions, I plotted a scatterplot of predicted values and actual values: ![Graph](graphs/plot.png)
+
+In addition, the mean absolute percentage error was found using scikit-learn: ![mape](graphs/mape.png)
+
 ## Discussion
 
 ## Summary
@@ -63,3 +71,5 @@ As for the question relating sleep with a student's performance, it had the lowe
 [2] [Predictive model article](https://365datascience.com/tutorials/python-tutorials/predictive-model-python/)
 
 [3] [Multiple regression article](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
+
+[4] [Multiple linear regression article with splitting data](https://medium.com/machine-learning-with-python/multiple-linear-regression-implementation-in-python-2de9b303fc0c)

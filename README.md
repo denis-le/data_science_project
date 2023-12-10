@@ -47,10 +47,7 @@ To find the top three values, feature selection is used. SelectKBest was chosen 
 
 ## Results
 
-The top three features with the highest correlation to a student's performance index ranked by score:
-1. Previous Scores
-2. Hours Studied
-3. Sample Question Papers Practiced
+The top three features with the highest correlation to a student's performance index ranked by score: ![Ranks](graphs/feature_ranking.png)
 
 As for the question relating sleep with a student's performance, it had the lowest score out of all of the features. This meant that even if it did have a correlation, the other features would provide a more accurate prediction when creating a model. 
 

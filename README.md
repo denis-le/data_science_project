@@ -62,7 +62,11 @@ In addition, the mean absolute percentage error was found using scikit-learn: ![
 
 ## Discussion
 
+Looking at the graph between the predicted and the actual values, there was a linear relationship  between those values, which meant that linear regression was the best method for this dataset. With the mean absolute percentage being as low as it was, this also meant that the top three features had a very strong relationship with a student's performance index. 
+
 ## Summary
+
+This project uses Datalore from JetBrains to build a predictive model using multiple linear regression in order to predict a student's performance index. Using the top three features that had the biggest correlation with a student's performance index, the model had a mean absolute percentage error of 0.035.
 
 ## References
 
